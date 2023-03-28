@@ -1,7 +1,10 @@
 # appointment-scheduler (wip)
-pet project for hospital appointment scheduler
+Intended to be a monitor for doctor availability. I intend to run this in a cronjob so I get notified whenever a doctor has availability
+in the timerange I need.
 
-Project works for specialities only: 
+Original source: https://institutodediagnostico.com.ar/
+
+### Project works only for specialities at the moment
 
 create `local_variables.ini` with the following structure
 
@@ -12,6 +15,8 @@ to_email = xxx@gmail.com
 specialty = CARDIOLOGIA
 max_days = 7
 ```
+
+Create your oauth2 token to authorize your account in order to send emails. paste it as `credentials.json`
 
 run `python3 webscrapper.py`
 
