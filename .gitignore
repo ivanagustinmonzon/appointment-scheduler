@@ -1,3 +1,7 @@
 *.class
 *.log
 .idea
+local_variables.ini
+token.json
+credentials.json
+__pycache__
